@@ -26,6 +26,8 @@
     border: 0px;
     padding: 10px 100px 10px 10px;
     outline: none;
+     appearance: none;
+    -webkit-appearance: none;
 
 }
 
