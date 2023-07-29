@@ -38,7 +38,7 @@ function Header(props) {
     <div className={`header-div ${isOpen ? "hidden" : ""} ${headerTheme ? "headerDarkBg": ""}`}>
         
         <select name="" id="" className='filter' onChange={handleChange}>
-            <option value="" defaultValue={''} hidden  style="display: none;">Filter by Region</option>
+            <option value="" defaultValue={''} hidden >Filter by Region</option>
             <option value="">All</option>
             <option value="africa">Africa</option>
             <option value="america">America</option>
