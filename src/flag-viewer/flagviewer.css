@@ -1,0 +1,9 @@
+.flagviewer-div{
+    /* background-color: rgb(196, 189, 189); */
+    padding: 80px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    min-height: 823px;
+}

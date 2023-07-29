@@ -1,0 +1,75 @@
+.header-div{
+    background-color: rgb(192, 187, 187);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar{
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    /* min-width: 500px; */
+    text-align: center;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+.search-bar:focus{
+    scale: 1.1;
+}
+
+
+.filter{
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 100px 10px 10px;
+    outline: none;
+
+}
+
+
+.changeTheme{
+    display: flex;
+    align-items: center;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    scale: 1.3;
+    font-weight: 600;
+    column-gap: 7px;
+    width: fit-content;
+}
+.changeTheme:hover{
+    filter: invert(1);
+}
+
+.headerDarkBg{
+    background-color: hsl(208, 24%, 14%)
+}
+
+.btncolor{
+    color: white;
+}
+
+@media (max-width:675px) {
+    .header-div{
+        flex-direction: column;
+        padding: 20px 20px;
+        row-gap: 20px;
+    }
+    .changeTheme {
+        align-self: center;
+    }
+    .card-div{
+        scale: 0.9;
+    }
+    .card-div:hover{
+        scale: 0.94;
+    }
+    .flagviewer-div{
+        row-gap: 20px;
+        padding: 20px 80px;
+    }
+}
